@@ -1,0 +1,371 @@
+{
+  "app.title": "SmartLager",
+  "app.subtitle": "Intelligentes Bestandsmanagement",
+  "welcome": "Willkommen",
+  "newshipment": "Neue Sendung",
+  "common": {
+    "toast": {
+      "infoTitle": "Information"
+    },
+    "error": "Fehler",
+    "unknownError": "Unbekannter Fehler",
+    "connectionError": "Verbindungsfehler",
+    "save": "Speichern",
+    "back": "Zurück",
+    "noOptions": "Keine Optionen verfügbar",
+    "success": "Vorgang Erfolgreich",
+    "loading": "Wird geladen...",
+    "mustAdd": "Hinzufügen"
+  },
+  "error": {
+    "missingCreditorAccount": "Fehler: Fehlendes oder falsches Gläubigerkonto (IBAN),"
+  },
+  "shipments": {
+    "noProductsAvailable": "Keine Produkte verfügbar.",
+    "addNewProduct": "Produkt hinzufügen",
+    "addShipment": "Sendung hinzufügen",
+    "shipments": "Sendungen",
+    "selectProduct": "Produkt auswählen",
+    "selectClient": "Kunde auswählen",
+    "addClient": "Kunde hinzufügen",
+    "savedSuccessfully": "Erfolgreich gespeichert",
+    "saveFailed": "Speichern fehlgeschlagen",
+    "enterValidPriceAndQuantity": "Bitte geben Sie gültige Preis- und Mengenwerte ein.",
+    "columns": {
+      "id": "ID",
+      "status": "Status",
+      "createdAt": "Erstellt am"
+    },
+    "addProduct": {
+      "price": "Preis",
+      "perUnit": "pro Einheit",
+      "totalPrice": "Gesamtpreis",
+      "quantity": "Menge"
+    },
+    "addedProducts": {
+      "title": "Hinzugefügte Produkte",
+      "product": "Produkt",
+      "description": "Beschreibung",
+      "quantity": "Menge",
+      "unitPrice": "Einzelpreis",
+      "total": "Gesamt",
+      "actions": "Aktionen",
+      "type": "Typ"
+    },
+    "details": "Sendungsdetails",
+    "shipmentInfo": "Sendungsinformationen",
+    "id": "Sendungs-ID",
+    "date": "Sendungsdatum",
+    "viewInvoice": "Rechnung anzeigen",
+    "delete": "Sendung löschen",
+    "confirmDelete": "Sind Sie sicher, dass Sie diese Sendung löschen möchten?",
+    "deleteSuccess": "Sendung erfolgreich gelöscht",
+    "deleteFailed": "Fehler beim Löschen der Sendung",
+    "statusUpdated": "Status erfolgreich aktualisiert",
+    "updateStatusFailed": "Fehler beim Aktualisieren des Status",
+    "fetchFailed": "Fehler beim Abrufen der Sendungsdetails",
+    "notFound": "Sendung nicht gefunden",
+    "noClientInfo": "Keine Kundeninformationen verfügbar",
+    "status": {
+      "pending": "Ausstehend",
+      "inShipment": "In Versand",
+      "shipped": "Versendet",
+      "delivered": "Geliefert"
+    }
+  },
+  "addNewProduct": "Neues Produkt Hinzufügen",
+  "addProduct": {
+    "title": "Produkt hinzufügen",
+    "name": "Produktname",
+    "namePlaceholder": "Produktname eingeben",
+    "type": "Typ",
+    "typePlaceholder": "Produkttyp eingeben",
+    "category": "Kategorie",
+    "categoryPlaceholder": "Kategorie auswählen",
+    "price": "Preis",
+    "pricePlaceholder": "Preis eingeben",
+    "size": "Größe",
+    "sizePlaceholder": "z.B. 30cm, 1L",
+    "barcode": "Barcode / SKU",
+    "barcodePlaceholder": "Barcode oder SKU eingeben",
+    "initialStock": "Anfangsbestand",
+    "initialStockPlaceholder": "Anfangsbestand eingeben",
+    "unit": "Einheit",
+    "unitPlaceholder": "Einheit auswählen",
+    "supplier": "Lieferant",
+    "supplierPlaceholder": "Lieferant auswählen",
+    "description": "Beschreibung",
+    "descriptionPlaceholder": "Beschreibung eingeben",
+    "minStockLevel": "Min. Lagerbestand",
+    "minStockLevelPlaceholder": "Mindestbestand eingeben",
+    "location": "Lagerort",
+    "locationPlaceholder": "Gang, Fach, Regal",
+    "saveButton": "Produkt speichern",
+    "saveAndFinish": "speichern und schließen",
+    "addButton": "Produkt hinzufügen",
+    "productLimitReached": "Produktlimit erreicht. Bitte kontaktieren Sie den Administrator, um Ihr Limit zu erhöhen.",
+    "failedToLoadSuppliers": "Fehler beim Laden der Lieferanten. Bitte versuchen Sie es erneut.",
+    "nameRequired": "Produktname ist erforderlich.",
+    "typeRequired": "Typ ist erforderlich.",
+    "categoryRequired": "Kategorie ist erforderlich.",
+    "priceRequired": "Preis ist erforderlich und muss größer als 0 sein.",
+    "successMessage": "Produkt erfolgreich hinzugefügt"
+  },
+  "category": {
+    "tools": "Werkzeuge",
+    "consumables": "Verbrauchsmaterial",
+    "other": "Sonstiges"
+  },
+  "invoice": {
+    "invoices": "Rechnungen",
+    "addInvoice": "Rechnung hinzufügen",
+    "create": "Rechnung Erstellen",
+    "createAndSave": "Rechnung Erstellen und Speichern",
+    "print": "Rechnung Drucken",
+    "clientDetails": "Kundendetails",
+    "details": "Rechnungsdetails",
+    "invoiceNumber": "Rechnungsnummer",
+    "date": "Rechnungsdatum",
+    "dueDate": "Fälligkeitsdatum",
+    "subtotal": "Zwischensumme",
+    "taxRate": "Steuersatz (%)",
+    "taxAmount": "Steuerbetrag",
+    "total": "Gesamtbetrag",
+    "status": "Status",
+    "notes": "Notizen",
+    "notesPlaceholder": "Fügen Sie zusätzliche Notizen für diese Rechnung hinzu",
+    "title": "Rechnung",
+    "from": "Von",
+    "to": "Rechnungsempfänger",
+    "items": "Rechnungspositionen",
+    "notFound": "Rechnung nicht gefunden",
+    "paymentDetails": "Zahlungsdetails",
+    "statuses": {
+      "pending": "Ausstehend",
+      "inShipment": "In Versand",
+      "shipped": "Versendet",
+      "delivered": "Geliefert",
+      "paid": "Bezahlt",
+      "overdue": "Überfällig"
+    },
+    "columns": {
+      "invoiceNumber": "Rechnungsnummer",
+      "clientName": "Kundenname",
+      "date": "Datum",
+      "total": "Gesamt",
+      "status": "Status"
+    }
+  },
+  "unit": {
+    "piece": "Stück",
+    "kg": "Kg",
+    "liter": "Liter"
+  },
+  "supplier": {
+    "a": "Lieferant A",
+    "b": "Lieferant B",
+    "c": "Lieferant C",
+    "form": {
+      "title": "Lieferant hinzufügen",
+      "supplierInformation": "Lieferanteninformationen",
+      "name": "Lieferantenname",
+      "contactPerson": "Ansprechpartner",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "notes": "Notizen",
+      "notesPlaceholder": "Zusätzliche Informationen zu diesem Lieferanten",
+      "address": "Adresse",
+      "save": "Lieferant speichern",
+      "reset": "Zurücksetzen"
+    },
+    "validation": {
+      "nameRequired": "Lieferantenname ist erforderlich",
+      "emailRequired": "E-Mail ist erforderlich",
+      "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "phoneRequired": "Telefonnummer ist erforderlich",
+      "streetRequired": "Straße ist erforderlich",
+      "cityRequired": "Stadt ist erforderlich",
+      "postalCodeRequired": "Postleitzahl ist erforderlich",
+      "stateRequired": "Bundesland/Kanton ist erforderlich",
+      "countryRequired": "Land ist erforderlich"
+    },
+    "messages": {
+      "addSuccess": "Lieferant erfolgreich hinzugefügt!",
+      "addError": "Fehler beim Hinzufügen des Lieferanten!"
+    }
+  },
+  "suppliers": {
+    "addSupplier": "Lieferant hinzufügen"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "products": "Produkte",
+    "viewProducts": "Produkte anzeigen",
+    "addProduct": "Produkt hinzufügen",
+    "clients": "Kunden",
+    "viewClients": "Kunden anzeigen",
+    "addClient": "Kunde hinzufügen",
+    "supplier": "Lieferanten",
+    "viewSuppliers": "Lieferanten anzeigen",
+    "addSupplier": "Lieferant hinzufügen",
+    "invoices": "Rechnungen",
+    "users": "Benutzer",
+    "warehouse": "Lager",
+    "shipments": "Sendungen",
+    "viewShipments": "Sendungen anzeigen",
+    "addShipment": "Sendung hinzufügen",
+    "language": "Sprache"
+  },
+  "products": {
+    "columns": {
+      "name": "Name",
+      "category": "Kategorie",
+      "type": "Typ",
+      "quantity": "Menge",
+      "barcode": "Strichcode",
+      "price": "Preis",
+      "stock": "Lagerbestand"
+    },
+    "updateSuccess": "Produkt erfolgreich aktualisiert",
+    "updateFailed": "Aktualisierung fehlgeschlagen"
+  },
+  "retry": "Erneut versuchen",
+  "noImageAvailable": "Kein Bild verfügbar",
+  "productDetails": "Produktdetails",
+  "inventoryInfo": "Lagerinformationen",
+  "expirationDate": "Ablaufdatum",
+  "edit": "Bearbeiten",
+  "back": "Zurück",
+  "productNotFound": "Produkt nicht gefunden",
+  "backToProducts": "Zurück zu Produkten",
+  "clients": {
+    "clients": "Kunden",
+    "addClient": "Kunden hinzufügen",
+    "editClient": "Kunden bearbeiten",
+    "clientDetails": "Kundendetails",
+    "columns": {
+      "companyName": "Unternehmensname",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "phone": "Telefon"
+    }
+  },
+  "client": {
+    "form": {
+      "clientType": "Kundentyp",
+      "clientInformation": "Kundeninformationen",
+      "companyName": "Firmenname",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "taxId": "Steuer-ID",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "notes": "Notizen",
+      "notesPlaceholder": "Zusätzliche Informationen",
+      "addresses": "Adressen",
+      "addAddress": "Adresse hinzufügen",
+      "primary": "Primär",
+      "addressNumber": "Adresse {number}",
+      "setAsPrimary": "Als primäre Adresse festlegen",
+      "removeAddress": "Adresse entfernen",
+      "street": "Straße",
+      "city": "Stadt",
+      "postalCode": "Postleitzahl",
+      "state": "Bundesland/Kanton",
+      "country": "Land",
+      "selectCountry": "Land auswählen",
+      "save": "Kunde speichern",
+      "reset": "Zurücksetzen",
+      "iban": "IBAN",
+      "ibanFormat": "Bitte geben Sie eine gültige IBAN im Format CH0000000000000000000 ein"
+    },
+    "validation": {
+      "emailRequired": "E-Mail ist erforderlich",
+      "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "phoneRequired": "Telefonnummer ist erforderlich",
+      "firstNameRequired": "Vorname ist erforderlich",
+      "lastNameRequired": "Nachname ist erforderlich",
+      "companyNameRequired": "Firmenname ist erforderlich",
+      "taxIdRequired": "Steuer-ID ist für Unternehmen erforderlich",
+      "streetRequired": "Straße ist erforderlich",
+      "cityRequired": "Stadt ist erforderlich",
+      "postalCodeRequired": "Postleitzahl ist erforderlich",
+      "stateRequired": "Bundesland/Kanton ist erforderlich",
+      "countryRequired": "Land ist erforderlich",
+      "ibanRequired": "IBAN ist erforderlich",
+      "invalidSwissIban": "Ungültige Schweizer IBAN"
+    },
+    "messages": {
+      "addSuccess": "Kunde erfolgreich hinzugefügt!",
+      "addError": "Fehler beim Hinzufügen des Kunden!"
+    },
+    "selectedClient": {
+      "companyName": "Unternehmensname",
+      "address": "Adresse",
+      "city": "Stadt",
+      "postalCode": "Postleitzahl",
+      "state": "Bundesland/Kanton",
+      "country": "Land",
+      "vatNumber": "USt-IdNr.",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "contactPerson": "Ansprechpartner"
+    },
+    "details": {
+      "overview": "Kundenübersicht",
+      "contactInfo": "Kontaktinformationen",
+      "addresses": "Adressen",
+      "createdAt": "Erstellt am",
+      "updatedAt": "Aktualisiert am",
+      "viewInvoices": "Rechnungen anzeigen",
+      "editDetails": "Details bearbeiten",
+      "typeCompany": "Unternehmen",
+      "typeIndividual": "Privatperson",
+      "notFound": "Kunde nicht gefunden"
+    }
+  },
+  "users": {
+    "users": "Benutzer",
+    "columns": {
+      "name": "Name",
+      "email": "E-Mail",
+      "createdAt": "Erstellt am"
+    }
+  },
+  "warehouse": {
+    "inventories": "Bestände",
+    "stock": "Lagerbestand",
+    "picks": "Kommissionierungen",
+    "internalTransport": "Interner Transport",
+    "transportation": "Transport"
+  },
+  "company": {
+    "address": "Lagerstraße 123",
+    "city": "Geschäftsstadt",
+    "postalCode": "12345",
+    "country": "Deutschland",
+    "vatLabel": "USt-IdNr.",
+    "vatNumber": "DE123456789"
+  },
+  "auth": {
+    "loginTitle": "Anmelden",
+    "email": "E-Mail",
+    "emailPlaceholder": "Geben Sie Ihre E-Mail ein",
+    "password": "Passwort",
+    "passwordPlaceholder": "Geben Sie Ihr Passwort ein",
+    "rememberMe": "Angemeldet bleiben",
+    "login": "Anmelden",
+    "loggingIn": "Anmeldung läuft...",
+    "forgotPassword": "Passwort vergessen?",
+    "userInfo": "Benutzerinformationen",
+    "loginSuccess": "Anmeldung erfolgreich",
+    "loginFailed": "Anmeldung fehlgeschlagen. Bitte überprüfen Sie Ihre Anmeldedaten.",
+    "setPasswordTitle": "Neues Passwort festlegen",
+    "newPassword": "Neues Passwort",
+    "newPasswordPlaceholder": "Geben Sie Ihr neues Passwort ein",
+    "confirmPassword": "Passwort bestätigen",
+    "confirmPasswordPlaceholder": "Bestätigen Sie Ihr neues Passwort",
+    "submit": "Absenden"
+  }
+}

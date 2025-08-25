@@ -1,0 +1,318 @@
+{
+  "app.title": "SmartLager",
+  "app.subtitle": "Gestion Intelligente des Stocks",
+  "welcome": "Bienvenue",
+  "newshipment": "Nouvelle Livraison",
+  "common": {
+    "toast": {
+      "infoTitle": "Info"
+    },
+    "error": "Erreur",
+    "unknownError": "Erreur Inconnue",
+    "connectionError": "Erreur de Connexion",
+    "save": "Enregistrer",
+    "back": "Retour",
+    "noOptions": "Aucune option disponible"
+  },
+  "error": {
+    "missingCreditorAccount": "Erreur: Compte créditeur manquant ou invalide (IBAN)"
+  },
+  "shipments": {
+    "noProductsAvailable": "Aucun produit disponible.",
+    "addNewProduct": "Ajouter un Nouveau Produit",
+    "addShipment": "Ajouter une Livraison",
+    "shipments": "Livraisons",
+    "selectProduct": "Sélectionner un Produit",
+    "selectClient": "Sélectionner un Client",
+    "addClient": "Ajouter un Client",
+    "savedSuccessfully": "Enregistré avec Succès",
+    "saveFailed": "Échec de l'Enregistrement",
+    "enterValidPriceAndQuantity": "Veuillez entrer des valeurs valides pour le prix et la quantité.",
+    "columns": {
+      "id": "ID",
+      "status": "Statut",
+      "createdAt": "Créé le"
+    },
+    "addProduct": {
+      "price": "Prix",
+      "perUnit": "par Unité",
+      "totalPrice": "Prix Total",
+      "quantity": "Quantité"
+    },
+    "addedProducts": {
+      "title": "Produits Ajoutés",
+      "product": "Produit",
+      "description": "Description",
+      "quantity": "Quantité",
+      "unitPrice": "Prix Unitaire",
+      "total": "Total",
+      "actions": "Actions"
+    }
+  },
+  "addNewProduct": "Ajouter un Nouveau Produit",
+  "addProduct": {
+    "title": "Ajouter un Produit",
+    "name": "Nom du Produit",
+    "namePlaceholder": "Entrez le nom du produit",
+    "type": "Type",
+    "typePlaceholder": "Entrez le type de produit",
+    "category": "Catégorie",
+    "categoryPlaceholder": "Sélectionnez une catégorie",
+    "price": "Prix",
+    "pricePlaceholder": "Entrez le prix",
+    "size": "Taille",
+    "sizePlaceholder": "ex. 30cm, 1L",
+    "barcode": "Code-barres / SKU",
+    "barcodePlaceholder": "Entrez le code-barres ou SKU",
+    "initialStock": "Stock Initial",
+    "initialStockPlaceholder": "Entrez le stock initial",
+    "unit": "Unité",
+    "unitPlaceholder": "Sélectionnez une unité",
+    "supplier": "Fournisseur",
+    "supplierPlaceholder": "Sélectionnez un fournisseur",
+    "description": "Description",
+    "descriptionPlaceholder": "Entrez une description",
+    "minStockLevel": "Niveau de Stock Min.",
+    "minStockLevelPlaceholder": "Entrez le niveau minimum de stock",
+    "location": "Emplacement de Stockage",
+    "locationPlaceholder": "Allée, Bac, Étagère",
+    "saveButton": "Enregistrer le Produit",
+    "saveAndFinish": "Enregistrer et Fermer",
+    "addButton": "Ajouter un Produit",
+    "productLimitReached": "Limite de produits atteinte. Veuillez contacter l'administrateur pour augmenter votre limite.",
+    "failedToLoadSuppliers": "Échec du chargement des fournisseurs. Veuillez réessayer.",
+    "nameRequired": "Le nom du produit est obligatoire.",
+    "typeRequired": "Le type est obligatoire.",
+    "categoryRequired": "La catégorie est obligatoire.",
+    "priceRequired": "Le prix est obligatoire et doit être supérieur à 0."
+  },
+  "category": {
+    "tools": "Outils",
+    "consumables": "Consommables",
+    "other": "Autre"
+  },
+  "invoice": {
+    "invoices": "Factures",
+    "addInvoice": "Ajouter une Facture",
+    "create": "Créer une Facture",
+    "createAndSave": "Créer et Enregistrer la Facture",
+    "print": "Imprimer la Facture",
+    "clientDetails": "Détails du Client",
+    "details": "Détails de la Facture",
+    "invoiceNumber": "Numéro de Facture",
+    "date": "Date de Facturation",
+    "dueDate": "Date d'Échéance",
+    "subtotal": "Sous-total",
+    "taxRate": "Taux de TVA (%)",
+    "taxAmount": "Montant de la TVA",
+    "total": "Total",
+    "status": "Statut",
+    "notes": "Notes",
+    "notesPlaceholder": "Ajoutez des notes supplémentaires pour cette facture",
+    "title": "Facture",
+    "from": "De",
+    "to": "Facturer à",
+    "items": "Articles de la Facture",
+    "notFound": "Facture non trouvée",
+    "paymentDetails": "Détails de Paiement",
+    "statuses": {
+      "pending": "En Attente",
+      "inShipment": "En Livraison",
+      "shipped": "Expédié",
+      "delivered": "Livré",
+      "paid": "Payé",
+      "overdue": "En Retard"
+    },
+    "columns": {
+      "invoiceNumber": "Numéro de Facture",
+      "clientName": "Nom du Client",
+      "date": "Date",
+      "total": "Total",
+      "status": "Statut"
+    }
+  },
+  "unit": {
+    "piece": "Pièce",
+    "kg": "Kg",
+    "liter": "Litre"
+  },
+  "supplier": {
+    "a": "Fournisseur A",
+    "b": "Fournisseur B",
+    "c": "Fournisseur C",
+    "form": {
+      "title": "Ajouter un Fournisseur",
+      "supplierInformation": "Informations du Fournisseur",
+      "name": "Nom du Fournisseur",
+      "contactPerson": "Personne à Contacter",
+      "email": "Email",
+      "phone": "Téléphone",
+      "notes": "Notes",
+      "notesPlaceholder": "Informations supplémentaires sur ce fournisseur",
+      "address": "Adresse",
+      "save": "Enregistrer le Fournisseur",
+      "reset": "Réinitialiser"
+    },
+    "validation": {
+      "nameRequired": "Le nom du fournisseur est obligatoire",
+      "emailRequired": "L'email est obligatoire",
+      "emailInvalid": "Veuillez entrer une adresse email valide",
+      "phoneRequired": "Le numéro de téléphone est obligatoire",
+      "streetRequired": "La rue est obligatoire",
+      "cityRequired": "La ville est obligatoire",
+      "postalCodeRequired": "Le code postal est obligatoire",
+      "stateRequired": "La région/province est obligatoire",
+      "countryRequired": "Le pays est obligatoire"
+    },
+    "messages": {
+      "addSuccess": "Fournisseur ajouté avec succès !",
+      "addError": "Erreur lors de l'ajout du fournisseur !"
+    }
+  },
+  "suppliers": {
+    "addSupplier": "Ajouter un Fournisseur"
+  },
+  "nav": {
+    "dashboard": "Tableau de Bord",
+    "products": "Produits",
+    "viewProducts": "Voir les Produits",
+    "addProduct": "Ajouter un Produit",
+    "clients": "Clients",
+    "viewClients": "Voir les Clients",
+    "addClient": "Ajouter un Client",
+    "supplier": "Fournisseurs",
+    "viewSuppliers": "Voir les Fournisseurs",
+    "addSupplier": "Ajouter un Fournisseur",
+    "invoices": "Factures",
+    "users": "Utilisateurs",
+    "warehouse": "Entrepôt",
+    "shipments": "Livraisons",
+    "viewShipments": "Voir les Livraisons",
+    "addShipment": "Ajouter une Livraison",
+    "language": "Langue"
+  },
+  "products": {
+    "columns": {
+      "name": "Nom",
+      "category": "Catégorie",
+      "type": "Type",
+      "quantity": "Quantité",
+      "barcode": "Code-barres",
+      "price": "Prix",
+      "stock": "Stock"
+    }
+  },
+  "clients": {
+    "clients": "Clients",
+    "addClient": "Ajouter un Client",
+    "editClient": "Modifier le Client",
+    "clientDetails": "Détails du Client",
+    "columns": {
+      "companyName": "Nom de l'Entreprise",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "phone": "Téléphone"
+    }
+  },
+  "client": {
+    "form": {
+      "clientType": "Type de Client",
+      "clientInformation": "Informations du Client",
+      "companyName": "Nom de l'Entreprise",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "taxId": "Numéro Fiscal",
+      "email": "Email",
+      "phone": "Téléphone",
+      "notes": "Notes",
+      "notesPlaceholder": "Informations supplémentaires",
+      "addresses": "Adresses",
+      "addAddress": "Ajouter une Adresse",
+      "primary": "Principale",
+      "addressNumber": "Adresse {number}",
+      "setAsPrimary": "Définir comme principale",
+      "removeAddress": "Supprimer l'adresse",
+      "street": "Rue",
+      "city": "Ville",
+      "postalCode": "Code Postal",
+      "state": "Région/Province",
+      "country": "Pays",
+      "selectCountry": "Sélectionnez un pays",
+      "save": "Enregistrer le Client",
+      "reset": "Réinitialiser"
+    },
+    "validation": {
+      "emailRequired": "L'email est obligatoire",
+      "emailInvalid": "Veuillez entrer une adresse email valide",
+      "phoneRequired": "Le numéro de téléphone est obligatoire",
+      "firstNameRequired": "Le prénom est obligatoire",
+      "lastNameRequired": "Le nom est obligatoire",
+      "companyNameRequired": "Le nom de l'entreprise est obligatoire",
+      "taxIdRequired": "Le numéro fiscal est obligatoire pour les entreprises",
+      "streetRequired": "La rue est obligatoire",
+      "cityRequired": "La ville est obligatoire",
+      "postalCodeRequired": "Le code postal est obligatoire",
+      "stateRequired": "La région/province est obligatoire",
+      "countryRequired": "Le pays est obligatoire",
+      "ibanRequired": "IBAN est obligatoire"
+    },
+    "messages": {
+      "addSuccess": "Client ajouté avec succès !",
+      "addError": "Erreur lors de l'ajout du client !"
+    },
+    "selectedClient": {
+      "companyName": "Nom de l'Entreprise",
+      "address": "Adresse",
+      "city": "Ville",
+      "postalCode": "Code Postal",
+      "state": "Région/Province",
+      "country": "Pays",
+      "vatNumber": "Numéro de TVA",
+      "email": "E-Mail",
+      "phone": "Numéro de Téléphone",
+      "contactPerson": "Personne à Contacter"
+    },
+    "details": {
+      "overview": "Aperçu du Client",
+      "contactInfo": "Coordonnées",
+      "addresses": "Adresses",
+      "createdAt": "Créé le",
+      "updatedAt": "Mis à jour le",
+      "viewInvoices": "Voir les Factures",
+      "editDetails": "Modifier les Détails",
+      "typeCompany": "Entreprise",
+      "typeIndividual": "Particulier",
+      "notFound": "Client non trouvé"
+    }
+  },
+  "warehouse": {
+    "inventories": "Inventaires",
+    "stock": "Stock",
+    "picks": "Prélèvements",
+    "internalTransport": "Transport Interne",
+    "transportation": "Transport"
+  },
+  "company": {
+    "address": "123 Rue de l'Entrepôt",
+    "city": "Ville d'Affaires",
+    "postalCode": "12345",
+    "country": "France",
+    "vatLabel": "Numéro de TVA",
+    "vatNumber": "FR12345678901"
+  },
+  "auth": {
+    "loginTitle": "Connexion",
+    "email": "Email",
+    "emailPlaceholder": "Entrez votre email",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "rememberMe": "Se souvenir de moi",
+    "login": "Se connecter",
+    "loggingIn": "Connexion en cours...",
+    "forgotPassword": "Mot de passe oublié ?",
+    "userInfo": "Informations utilisateur",
+    "loginSuccess": "Connexion réussie",
+    "loginFailed": "Échec de la connexion. Veuillez vérifier vos identifiants."
+  }
+}

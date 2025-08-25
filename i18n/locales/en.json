@@ -1,0 +1,318 @@
+{
+  "app.title": "SmartLager",
+  "app.subtitle": "Intelligent Inventory Management",
+  "welcome": "Welcome",
+  "newshipment": "New Shipment",
+  "common": {
+    "toast": {
+      "infoTitle": "Info"
+    },
+    "error": "Error",
+    "unknownError": "Unknown Error",
+    "connectionError": "Connection Error",
+    "save": "Save",
+    "back": "Back",
+    "noOptions": "No options available"
+  },
+  "error": {
+    "missingCreditorAccount": "Error: Missing or invalid creditor account (IBAN)"
+  },
+  "shipments": {
+    "noProductsAvailable": "No products available.",
+    "addNewProduct": "Add New Product",
+    "addShipment": "Add Shipment",
+    "shipments": "Shipments",
+    "selectProduct": "Select Product",
+    "selectClient": "Select Client",
+    "addClient": "Add Client",
+    "savedSuccessfully": "Saved Successfully",
+    "saveFailed": "Save Failed",
+    "enterValidPriceAndQuantity": "Please enter valid price and quantity values.",
+    "columns": {
+      "id": "ID",
+      "status": "Status",
+      "createdAt": "Created At"
+    },
+    "addProduct": {
+      "price": "Price",
+      "perUnit": "per Unit",
+      "totalPrice": "Total Price",
+      "quantity": "Quantity"
+    },
+    "addedProducts": {
+      "title": "Added Products",
+      "product": "Product",
+      "description": "Description",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "total": "Total",
+      "actions": "Actions"
+    }
+  },
+  "addNewProduct": "Add New Product",
+  "addProduct": {
+    "title": "Add Product",
+    "name": "Product Name",
+    "namePlaceholder": "Enter product name",
+    "type": "Type",
+    "typePlaceholder": "Enter product type",
+    "category": "Category",
+    "categoryPlaceholder": "Select category",
+    "price": "Price",
+    "pricePlaceholder": "Enter price",
+    "size": "Size",
+    "sizePlaceholder": "e.g. 30cm, 1L",
+    "barcode": "Barcode / SKU",
+    "barcodePlaceholder": "Enter barcode or SKU",
+    "initialStock": "Initial Stock",
+    "initialStockPlaceholder": "Enter initial stock",
+    "unit": "Unit",
+    "unitPlaceholder": "Select unit",
+    "supplier": "Supplier",
+    "supplierPlaceholder": "Select supplier",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter description",
+    "minStockLevel": "Min. Stock Level",
+    "minStockLevelPlaceholder": "Enter minimum stock level",
+    "location": "Storage Location",
+    "locationPlaceholder": "Aisle, Bin, Shelf",
+    "saveButton": "Save Product",
+    "saveAndFinish": "Save and Close",
+    "addButton": "Add Product",
+    "productLimitReached": "Product limit reached. Please contact administrator to increase your limit.",
+    "failedToLoadSuppliers": "Failed to load suppliers. Please try again.",
+    "nameRequired": "Product Name is required.",
+    "typeRequired": "Type is required.",
+    "categoryRequired": "Category is required.",
+    "priceRequired": "Price is required and must be greater than 0."
+  },
+  "category": {
+    "tools": "Tools",
+    "consumables": "Consumables",
+    "other": "Other"
+  },
+  "invoice": {
+    "invoices": "Invoices",
+    "addInvoice": "Add Invoice",
+    "create": "Create Invoice",
+    "createAndSave": "Create and Save Invoice",
+    "print": "Print Invoice",
+    "clientDetails": "Client Details",
+    "details": "Invoice Details",
+    "invoiceNumber": "Invoice Number",
+    "date": "Invoice Date",
+    "dueDate": "Due Date",
+    "subtotal": "Subtotal",
+    "taxRate": "Tax Rate (%)",
+    "taxAmount": "Tax Amount",
+    "total": "Total",
+    "status": "Status",
+    "notes": "Notes",
+    "notesPlaceholder": "Add any additional notes for this invoice",
+    "title": "Invoice",
+    "from": "From",
+    "to": "Bill To",
+    "items": "Invoice Items",
+    "notFound": "Invoice not found",
+    "paymentDetails": "Payment Details",
+    "statuses": {
+      "pending": "Pending",
+      "inShipment": "In Shipment",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "paid": "Paid",
+      "overdue": "Overdue"
+    },
+    "columns": {
+      "invoiceNumber": "Invoice Number",
+      "clientName": "Client Name",
+      "date": "Date",
+      "total": "Total",
+      "status": "Status"
+    }
+  },
+  "unit": {
+    "piece": "Piece",
+    "kg": "Kg",
+    "liter": "Liter"
+  },
+  "supplier": {
+    "a": "Supplier A",
+    "b": "Supplier B",
+    "c": "Supplier C",
+    "form": {
+      "title": "Add Supplier",
+      "supplierInformation": "Supplier Information",
+      "name": "Supplier Name",
+      "contactPerson": "Contact Person",
+      "email": "Email",
+      "phone": "Phone",
+      "notes": "Notes",
+      "notesPlaceholder": "Additional information about this supplier",
+      "address": "Address",
+      "save": "Save Supplier",
+      "reset": "Reset"
+    },
+    "validation": {
+      "nameRequired": "Supplier name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneRequired": "Phone number is required",
+      "streetRequired": "Street is required",
+      "cityRequired": "City is required",
+      "postalCodeRequired": "Postal code is required",
+      "stateRequired": "State/Province is required",
+      "countryRequired": "Country is required"
+    },
+    "messages": {
+      "addSuccess": "Supplier added successfully!",
+      "addError": "Error adding supplier!"
+    }
+  },
+  "suppliers": {
+    "addSupplier": "Add Supplier"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "viewProducts": "View Products",
+    "addProduct": "Add Product",
+    "clients": "Clients",
+    "viewClients": "View Clients",
+    "addClient": "Add Client",
+    "supplier": "Suppliers",
+    "viewSuppliers": "View Suppliers",
+    "addSupplier": "Add Supplier",
+    "invoices": "Invoices",
+    "users": "Users",
+    "warehouse": "Warehouse",
+    "shipments": "Shipments",
+    "viewShipments": "View Shipments",
+    "addShipment": "Add Shipment",
+    "language": "Language"
+  },
+  "products": {
+    "columns": {
+      "name": "Name",
+      "category": "Category",
+      "type": "Type",
+      "quantity": "Quantity",
+      "barcode": "Barcode",
+      "price": "Price",
+      "stock": "Stock"
+    }
+  },
+  "clients": {
+    "clients": "Clients",
+    "addClient": "Add Client",
+    "editClient": "Edit Client",
+    "clientDetails": "Client Details",
+    "columns": {
+      "companyName": "Company Name",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone"
+    }
+  },
+  "client": {
+    "form": {
+      "clientType": "Client Type",
+      "clientInformation": "Client Information",
+      "companyName": "Company Name",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "taxId": "Tax ID",
+      "email": "Email",
+      "phone": "Phone",
+      "notes": "Notes",
+      "notesPlaceholder": "Additional information",
+      "addresses": "Addresses",
+      "addAddress": "Add Address",
+      "primary": "Primary",
+      "addressNumber": "Address {number}",
+      "setAsPrimary": "Set as primary",
+      "removeAddress": "Remove address",
+      "street": "Street",
+      "city": "City",
+      "postalCode": "Postal Code",
+      "state": "State/Province",
+      "country": "Country",
+      "selectCountry": "Select a country",
+      "save": "Save Client",
+      "reset": "Reset"
+    },
+    "validation": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneRequired": "Phone number is required",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "companyNameRequired": "Company name is required",
+      "taxIdRequired": "Tax ID is required for companies",
+      "streetRequired": "Street is required",
+      "cityRequired": "City is required",
+      "postalCodeRequired": "Postal code is required",
+      "stateRequired": "State/Province is required",
+      "countryRequired": "Country is required",
+      "ibanRequired": "IBAN is required"
+    },
+    "messages": {
+      "addSuccess": "Client added successfully!",
+      "addError": "Error adding client!"
+    },
+    "selectedClient": {
+      "companyName": "Company Name",
+      "address": "Address",
+      "city": "City",
+      "postalCode": "Postal Code",
+      "state": "State/Province",
+      "country": "Country",
+      "vatNumber": "VAT Number",
+      "email": "E-Mail",
+      "phone": "Phone Number",
+      "contactPerson": "Contact Person"
+    },
+    "details": {
+      "overview": "Client Overview",
+      "contactInfo": "Contact Information",
+      "addresses": "Addresses",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "viewInvoices": "View Invoices",
+      "editDetails": "Edit Details",
+      "typeCompany": "Company",
+      "typeIndividual": "Individual",
+      "notFound": "Client not found"
+    }
+  },
+  "warehouse": {
+    "inventories": "Inventories",
+    "stock": "Stock",
+    "picks": "Picks",
+    "internalTransport": "Internal Transport",
+    "transportation": "Transportation"
+  },
+  "company": {
+    "address": "123 Warehouse Street",
+    "city": "Business City",
+    "postalCode": "12345",
+    "country": "United States",
+    "vatLabel": "VAT Number",
+    "vatNumber": "US123456789"
+  },
+  "auth": {
+    "loginTitle": "Sign In",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me",
+    "login": "Sign In",
+    "loggingIn": "Signing in...",
+    "forgotPassword": "Forgot your password?",
+    "userInfo": "User Information",
+    "loginSuccess": "Login successful",
+    "loginFailed": "Login failed. Please check your credentials."
+  }
+}

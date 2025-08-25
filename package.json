@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^1.8.0",
+    "@nuxt/fonts": "^0.11.4",
+    "@nuxt/image": "^1.11.0",
+    "@nuxtjs/i18n": "^10.0.5",
+    "@pinia/nuxt": "^0.11.2",
+    "@primevue/themes": "^4.3.7",
+    "@tailwindcss/vite": "^4.1.11",
+    "@vesp/nuxt-fontawesome": "^2.0.0",
+    "@vueuse/nuxt": "^13.6.0",
+    "axios": "^1.11.0",
+    "eslint": "^9.33.0",
+    "pinia": "^3.0.3",
+    "primevue": "^4.3.7",
+    "swissqrbill": "^4.2.0",
+    "tailwindcss": "^4.1.11",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^7.0.0",
+    "@fortawesome/free-regular-svg-icons": "^7.0.0",
+    "@fortawesome/free-solid-svg-icons": "^7.0.0",
+    "@nuxt/types": "^2.18.1",
+    "@primevue/nuxt-module": "^4.3.7",
+    "nuxt": "^4.0.3",
+    "tailwindcss-primeui": "^0.6.1",
+    "typescript": "^5.0.4",
+    "vue-tsc": "^3.0.5"
+  }
+}
